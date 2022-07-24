@@ -1,0 +1,38 @@
+.gallery-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.art-print {
+    height: 400px;
+    border-radius: 5%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2)
+}
+.art-print:hover {
+    border: solid 1px white;
+    
+}
+.jukebox {
+    height: 475px;
+}
+
+@media screen and (min-width: 600px) {
+    .jukebox {
+            height: 500px;
+        }
+    
+        .sunglasses {
+            margin-top: 50px;
+        }
+    
+        .milkshake {
+            height: 450px;
+        }
+    
+        .rollerskates {
+            margin-top: 25px;
+        }
+}

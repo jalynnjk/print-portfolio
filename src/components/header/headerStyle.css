@@ -1,0 +1,28 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 20px;
+}
+.subtitle {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.design-links {
+    font-size: 40px;
+    padding-left: 0px;
+    text-decoration: none;
+}
+@media screen and (min-width: 900px) {
+    .logo {
+        width: 700px;
+        align-self: center;
+        margin-left: 10px;
+    }
+}
